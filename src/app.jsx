@@ -55,7 +55,7 @@ class App extends Component {
         const { name, cut, resolution, format, results } = this.state;
         const entityMaps = [
             { key: 'entity', value: 'software', text: 'iOS' },
-            { key: 'entity', value: 'macSoftware', text: 'macOS' },
+            { key: 'entity', value: 'macSoftware', text: 'MAC' },
         ];
         const countryMaps = [
             { key: 'country', value: 'cn', text: '中/CN' },
