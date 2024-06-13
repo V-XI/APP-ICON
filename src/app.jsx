@@ -81,8 +81,8 @@ class App extends Component {
             <div className="app">
                 <header>
                     <div className="center">
-                        <div className="logo">HQ ICON</div>
-                        <div className="description">从 App Store 获取高清应用图标</div>
+                        <div className="logo">亿圣图标</div>
+                        <div className="description">苹果高清应用图标</div>
                         <div className="options">
                             {entityMaps.map(option => this.renderOption(option.key, option.value, option.text))}
                         </div>
@@ -114,7 +114,7 @@ class App extends Component {
                 <main className="results">
                     {results.map((result) => (<Result key={result.trackId} data={result} cut={cut} resolution={resolution} format={format} />))}
                 </main>
-                <footer className="footer">Copyrights © 2023 - <a className="footer-msg" href='https://github.com/YuKongA'>YuKongA</a></footer>
+                <footer className="footer"><a className="footer-msg" href='https://vvvxi.com'>亿圣导航</a></footer>
             </div>
         );
     }
