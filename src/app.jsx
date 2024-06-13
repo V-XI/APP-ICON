@@ -68,9 +68,6 @@ class App extends Component {
             { key: 'cut', value: '0', text: '原始图像' },
         ];
         const formatMaps = [
-            { key: 'format', value: 'jpeg', text: 'JPEG' },
-            { key: 'format', value: 'png', text: 'PNG' },
-            { key: 'format', value: 'webp', text: 'WebP' },
         ];
         const resolutionMaps = [
             { key: 'resolution', value: '256', text: '256px' },
