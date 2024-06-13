@@ -13,7 +13,7 @@ class App extends Component {
             entity: getUrlArgs('entity') || 'software',
             limit: getUrlArgs('limit') || '10',
             cut: getUrlArgs('cut') || '1',
-            resolution: getUrlArgs('resolution') || '512',
+            resolution: getUrlArgs('resolution') || '256',
             format: getUrlArgs('format') || 'png',
             results: [],
         };
