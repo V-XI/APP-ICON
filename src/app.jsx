@@ -64,8 +64,8 @@ class App extends Component {
             { key: 'country', value: 'kr', text: '韩/KR' },
         ];
         const cutMaps = [
-            { key: 'cut', value: '1', text: '原始图像' },
-            { key: 'cut', value: '0', text: '圆角图像' },
+            { key: 'cut', value: '0', text: '原始图像' },
+            { key: 'cut', value: '1', text: '圆角图像' },
         ];
         const formatMaps = [
         ];
