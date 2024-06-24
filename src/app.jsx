@@ -12,7 +12,7 @@ class App extends Component {
             country: getUrlArgs('country') || 'cn',
             entity: getUrlArgs('entity') || 'software',
             limit: getUrlArgs('limit') || '32',
-            cut: getUrlArgs('cut') || '1',
+            cut: getUrlArgs('cut') || '0',
             resolution: getUrlArgs('resolution') || '128',
             format: getUrlArgs('format') || 'png',
             results: [],
