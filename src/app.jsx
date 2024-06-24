@@ -13,7 +13,7 @@ class App extends Component {
             entity: getUrlArgs('entity') || 'software',
             limit: getUrlArgs('limit') || '32',
             cut: getUrlArgs('cut') || '1',
-            resolution: getUrlArgs('resolution') || '32',
+            resolution: getUrlArgs('resolution') || '64',
             format: getUrlArgs('format') || 'png',
             results: [],
         };
@@ -70,9 +70,11 @@ class App extends Component {
         const formatMaps = [
         ];
         const resolutionMaps = [
-            { key: 'resolution', value: '32', text: '32px' },
             { key: 'resolution', value: '64', text: '64px' },
             { key: 'resolution', value: '128', text: '128px' },
+            { key: 'resolution', value: '256', text: '256px' },
+            { key: 'resolution', value: '512', text: '512px' },
+            { key: 'resolution', value: '1024', text: '1024px' },
         ];
         return (
             <div className="app">
