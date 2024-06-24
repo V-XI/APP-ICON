@@ -82,6 +82,7 @@ class App extends Component {
                     <div className="center">
                         <div className="logo">亿圣图标</div>
                         <div className="description">苹果高清应用图标</div>
+                        <div className="description">圆角仅支持256大小</div>
                         <div className="options">
                             {entityMaps.map(option => this.renderOption(option.key, option.value, option.text))}
                         </div>
